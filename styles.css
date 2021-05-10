@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.main-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 70%;
+    margin: 80px auto;
+
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);    
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    padding-top: 25px;
+    text-transform: uppercase;
+}
+
+.info {
+    padding-top: 25px;
+    line-height: 2;
+    width: 80%;
+}
+
+
+.sedans-card {
+    background-color: #e28624;
+    border-radius: 8px 0 0 8px;
+    padding: 40px;
+}
+
+
+.suvs-card {
+    background-color: #0e6168;
+    padding: 40px;
+    
+}
+
+.luxury-card {
+    background-color: #02403e;
+    border-radius: 0 8px 8px 0;
+    padding: 40px;
+}
+
+
+
+
+
+
+
+.button {
+    width: 60%;
+    background-color: hsl(0, 0%, 95%);
+    
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.button a {
+    text-decoration: none;
+}
+
+
+.sedans-card .button a {
+    color: #e28624;
+   
+}
+
+.suvs-card .button a{
+    color: #0e6168;
+    
+}
+
+.luxury-card .button a{
+    color: #02403e;
+}
+
+
+
+
+
+.attribution {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  
+}
+
+.attribution a {
+  text-decoration: none;
+  color: #0e6168;
+}
+
+.attribution a:hover {
+  color: #e28624;
+}
+
+.attribution i {
+  font-size: 18px;
+}
+
+.attribution i:hover {
+  font-size: 20px;
+}
