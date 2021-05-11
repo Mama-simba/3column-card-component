@@ -51,14 +51,12 @@ h1 {
 }
 
 
-
-
-
-
-
 .button {
+    display: block;
     width: 60%;
     background-color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    
     
     padding: 10px 20px;
     border-radius: 20px;
@@ -66,28 +64,82 @@ h1 {
     text-align: center;
 }
 
-.button a {
-    text-decoration: none;
+
+.orange {
+  color: #e28624;
 }
-
-
-.sedans-card .button a {
-    color: #e28624;
-   
+.green{
+    color: #0e6168;  
 }
-
-.suvs-card .button a{
-    color: #0e6168;
-    
-}
-
-.luxury-card .button a{
+.dark{
     color: #02403e;
 }
 
 
 
+.button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
 
+
+@media only screen and (max-width:414px){
+  .main-card {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 40px auto;
+
+}
+
+.sedans-card {
+    border-radius: 8px 8px 0 0;
+    padding: 40px;
+}
+
+.suvs-card {
+    padding: 40px;
+    
+}
+
+.luxury-card {
+    border-radius: 0 0 8px 8px;
+}
+
+
+.info {
+    width: 95%;
+}
+
+.button {
+    width: 80%;
+}
+
+.attribution {
+  padding: 0 0 20px 0;
+  font-size: 14px;
+}
+
+.attribution i {
+  font-size: 14px;
+}
+
+.attribution i:hover {
+  font-size: 18px;
+}
+
+}
+
+
+
+
+
+
+
+
+/*FOOTER*/
 
 .attribution {
   text-align: center;
